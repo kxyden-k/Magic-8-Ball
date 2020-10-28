@@ -171,9 +171,11 @@ def possible_outcomes():
 
     return outcomes
 
+
 def user_question():
     question = input("Ask your question and i will answer it: ")
     return question
+
 
 def loading_time():
     for i in range(3):
@@ -181,10 +183,12 @@ def loading_time():
         print(".",end='')
     print('\n')
 
+    
 def random_choice(lst):
     rand_numb = random.randint(0,19)
     print(lst[rand_numb])
 
+    
 def main_8_ball():
     ascii_art_8ball()
     lst = possible_outcomes()
@@ -193,5 +197,6 @@ def main_8_ball():
     loading_time()
     random_choice(lst)
 
+    
 if __name__ == "__main__":
     main_8_ball()
