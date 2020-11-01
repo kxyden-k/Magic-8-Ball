@@ -1,7 +1,6 @@
 import random
 import time
 
-
 def ascii_art_8ball():
     print('''____
     ,dP9CGG88@b,
