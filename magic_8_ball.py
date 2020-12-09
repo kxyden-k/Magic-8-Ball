@@ -16,6 +16,7 @@ Y8GGGGGG8888888@@@@P.....
     `@@@@@@@@@P'.......
         """........''')
 
+    
 def possible_outcomes():
     #list containing all possible outcomes
     outcomes = [
